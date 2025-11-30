@@ -189,7 +189,7 @@
 
         async function fetchLeagues() {
             tableBody.innerHTML = `<tr><td colspan="6" class="text-center p-8"><span>Loading league information...</span></td></tr>`;
-            const desiredLeagues = ['Mercenaries', 'Hardcore Mercenaries', 'Standard', 'Hardcore'];
+            const desiredLeagues = ['Keepers', 'Hardcore Keepers', 'Standard', 'Hardcore'];
             const leagueApiUrl = 'https://api.pathofexile.com/leagues?compact=1';
             const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(leagueApiUrl)}`;
             try {
@@ -204,7 +204,7 @@
                     `<option value="${league.id}">${league.id}</option>`
                 ).join('');
                 
-                const defaultLeague = "Mercenaries";
+                const defaultLeague = "Keepers";
                 if (validLeagues.some(l => l.id === defaultLeague)) {
                    leagueSelect.value = defaultLeague;
                    fetchData(defaultLeague);
