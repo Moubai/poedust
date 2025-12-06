@@ -1035,7 +1035,9 @@
         "name": "Abberath's Hooves",
         "value": 34.61,
         "valueilvl84": 69220,
-        "valueilvl84q20": 83064
+        "valueilvl84q20": 83064,
+        "goldfee": 9860,
+        "TradeLink": "eRGmKElgiL"
     },
     {
         "name": "Mjölner",
@@ -2309,19 +2311,22 @@
         "name": "Rigwald's Savagery",
         "value": 11.82,
         "valueilvl84": 23640,
-        "valueilvl84q20": 28368
+        "valueilvl84q20": 28368,
+        "goldfee": 6080
     },
     {
         "name": "Rigwald's Command",
         "value": 11.82,
         "valueilvl84": 23640,
-        "valueilvl84q20": 28368
+        "valueilvl84q20": 28368,
+        "goldfee": 6080
     },
     {
         "name": "Slivertongue",
         "value": 11.82,
         "valueilvl84": 23640,
-        "valueilvl84q20": 28368
+        "valueilvl84q20": 28368,
+        "goldfee": 6080
     },
     {
         "name": "Obscurantis",
@@ -2333,7 +2338,8 @@
         "name": "Inya's Epiphany",
         "value": 11.78,
         "valueilvl84": 23560,
-        "valueilvl84q20": 28272
+        "valueilvl84q20": 28272,
+        "goldfee": 6060
     },
     {
         "name": "Replica Inya's Epiphany",
@@ -2381,7 +2387,8 @@
         "name": "Grip of the Council",
         "value": 11.44,
         "valueilvl84": 22880,
-        "valueilvl84q20": 27456
+        "valueilvl84q20": 27456,
+        "goldfee": 5980
     },
     {
         "name": "Saqawal's Flock",
@@ -2447,13 +2454,15 @@
         "name": "Algor Mortis",
         "value": 11.14,
         "valueilvl84": 22280,
-        "valueilvl84q20": 26736
+        "valueilvl84q20": 26736,
+        "goldfee": 5920
     },
     {
         "name": "Saffell's Frame",
         "value": 11.11,
         "valueilvl84": 22220,
-        "valueilvl84q20": 26664
+        "valueilvl84q20": 26664,
+        "goldfee": 5920
     },
     {
         "name": "Queen of the Forest",
@@ -2495,43 +2504,50 @@
         "name": "First Piece of Focus",
         "value": 10.96,
         "valueilvl84": 21920,
-        "valueilvl84q20": 26304
+        "valueilvl84q20": 26304,
+        "goldfee": 5880
     },
     {
         "name": "Second Piece of Focus",
         "value": 10.96,
         "valueilvl84": 21920,
-        "valueilvl84q20": 26304
+        "valueilvl84q20": 26304,
+        "goldfee": 5880
     },
     {
         "name": "Third Piece of Focus",
         "value": 10.96,
         "valueilvl84": 21920,
-        "valueilvl84q20": 26304
+        "valueilvl84q20": 26304,
+        "goldfee": 5880
     },
     {
         "name": "Fourth Piece of Focus",
         "value": 10.96,
         "valueilvl84": 21920,
-        "valueilvl84q20": 26304
+        "valueilvl84q20": 26304,
+        "goldfee": 5880
     },
     {
         "name": "First Piece of Storms",
         "value": 10.96,
         "valueilvl84": 21920,
-        "valueilvl84q20": 26304
+        "valueilvl84q20": 26304,
+        "goldfee": 5880
     },
     {
         "name": "Second Piece of Storms",
         "value": 10.96,
         "valueilvl84": 21920,
-        "valueilvl84q20": 26304
+        "valueilvl84q20": 26304,
+        "goldfee": 5880
     },
     {
         "name": "Third Piece of Storms",
         "value": 10.96,
         "valueilvl84": 21920,
-        "valueilvl84q20": 26304
+        "valueilvl84q20": 26304,
+        "goldfee": 5880
     },
     {
         "name": "Contract: Death to Darnaw",
@@ -2567,7 +2583,8 @@
         "name": "Storm's Gift",
         "value": 10.78,
         "valueilvl84": 21560,
-        "valueilvl84q20": 25872
+        "valueilvl84q20": 25872,
+        "goldfee": 5840
     },
     {
         "name": "Mask of the Tribunal",
@@ -2783,13 +2800,15 @@
         "name": "Perseverance",
         "value": 10.5,
         "valueilvl84": 21000,
-        "valueilvl84q20": 25200
+        "valueilvl84q20": 25200,
+        "goldfee": 5760
     },
     {
         "name": "The Black Cane",
         "value": 10.5,
         "valueilvl84": 21000,
-        "valueilvl84q20": 25200
+        "valueilvl84q20": 25200,
+        "goldfee": 5760
     },
     {
         "name": "Willowgift",
@@ -2825,7 +2844,8 @@
         "name": "Kaom's Binding",
         "value": 10.47,
         "valueilvl84": 20940,
-        "valueilvl84q20": 25128
+        "valueilvl84q20": 25128,
+        "goldfee": 5760
     },
     {
         "name": "Contract: Breaking the Unbreakable",
@@ -2903,7 +2923,8 @@
         "name": "The Rat Cage",
         "value": 10.16,
         "valueilvl84": 20320,
-        "valueilvl84q20": 24384
+        "valueilvl84q20": 24384,
+        "goldfee": 6248
     },
     {
         "name": "Craiceann's Carapace",
@@ -2939,7 +2960,8 @@
         "name": "Lioneye's Vision",
         "value": 9.9,
         "valueilvl84": 19800,
-        "valueilvl84q20": 23760
+        "valueilvl84q20": 23760,
+        "goldfee": 5620
     },
     {
         "name": "Brinerot Mark",
@@ -2963,7 +2985,8 @@
         "name": "Ngamahu's Flame",
         "value": 9.87,
         "valueilvl84": 19740,
-        "valueilvl84q20": 23688
+        "valueilvl84q20": 23688,
+        "goldfee": 5600
     },
     {
         "name": "Omeyocan",
@@ -2993,7 +3016,8 @@
         "name": "Great Old One's Tentacles",
         "value": 9.61,
         "valueilvl84": 19220,
-        "valueilvl84q20": 23064
+        "valueilvl84q20": 23064,
+        "goldfee": 5540
     },
     {
         "name": "Ceaseless Feast",
@@ -3005,7 +3029,8 @@
         "name": "Inextricable Fate",
         "value": 9.61,
         "valueilvl84": 19220,
-        "valueilvl84q20": 23064
+        "valueilvl84q20": 23064,
+        "goldfee": 5540
     },
     {
         "name": "Chitus' Apex",
@@ -3053,43 +3078,50 @@
         "name": "First Piece of Brutality",
         "value": 9.45,
         "valueilvl84": 18900,
-        "valueilvl84q20": 22680
+        "valueilvl84q20": 22680,
+        "goldfee": 5500
     },
     {
         "name": "Second Piece of Brutality",
         "value": 9.45,
         "valueilvl84": 18900,
-        "valueilvl84q20": 22680
+        "valueilvl84q20": 22680,
+        "goldfee": 5500
     },
     {
         "name": "Third Piece of Brutality",
         "value": 9.45,
         "valueilvl84": 18900,
-        "valueilvl84q20": 22680
+        "valueilvl84q20": 22680,
+        "goldfee": 5500
     },
     {
         "name": "First Piece of Directions",
         "value": 9.45,
         "valueilvl84": 18900,
-        "valueilvl84q20": 22680
+        "valueilvl84q20": 22680,
+        "goldfee": 5500
     },
     {
         "name": "Second Piece of Directions",
         "value": 9.45,
         "valueilvl84": 18900,
-        "valueilvl84q20": 22680
+        "valueilvl84q20": 22680,
+        "goldfee": 5500
     },
     {
         "name": "Third Piece of Directions",
         "value": 9.45,
         "valueilvl84": 18900,
-        "valueilvl84q20": 22680
+        "valueilvl84q20": 22680,
+        "goldfee": 5500
     },
     {
         "name": "Leper's Alms",
         "value": 9.45,
         "valueilvl84": 18900,
-        "valueilvl84q20": 22680
+        "valueilvl84q20": 22680,
+        "goldfee": 5500
     },
     {
         "name": "Atziri's Foible",
@@ -3113,61 +3145,71 @@
         "name": "Dyadus",
         "value": 9.33,
         "valueilvl84": 18660,
-        "valueilvl84q20": 22392
+        "valueilvl84q20": 22392,
+        "goldfee": 5460
     },
     {
         "name": "Atziri's Step",
         "value": 9.33,
         "valueilvl84": 18660,
-        "valueilvl84q20": 22392
+        "valueilvl84q20": 22392,
+        "goldfee": 5460
     },
     {
         "name": "Cherrubim's Maleficence",
         "value": 9.33,
         "valueilvl84": 18660,
-        "valueilvl84q20": 22392
+        "valueilvl84q20": 22392,
+        "goldfee": 5460
     },
     {
         "name": "Eber's Unification",
         "value": 9.33,
         "valueilvl84": 18660,
-        "valueilvl84q20": 22392
+        "valueilvl84q20": 22392,
+        "goldfee": 5460
     },
     {
         "name": "Medved's Challenge",
         "value": 9.33,
         "valueilvl84": 18660,
-        "valueilvl84q20": 22392
+        "valueilvl84q20": 22392,
+        "goldfee": 5460
     },
     {
         "name": "Rainbowstride",
         "value": 9.3,
         "valueilvl84": 18600,
-        "valueilvl84q20": 22320
+        "valueilvl84q20": 22320,
+        "goldfee": 5460
     },
     {
         "name": "Apep's Rage",
         "value": 9.3,
         "valueilvl84": 18600,
-        "valueilvl84q20": 22320
+        "valueilvl84q20": 22320,
+        "goldfee": 5460
     },
     {
         "name": "Lightpoacher",
         "value": 9.3,
         "valueilvl84": 18600,
-        "valueilvl84q20": 22320
+        "valueilvl84q20": 22320,
+        "goldfee": 5460
     },
     {
         "name": "Forbidden Shako",
         "value": 9.3,
         "valueilvl84": 18600,
-        "valueilvl84q20": 22320
+        "valueilvl84q20": 22320,
+        "goldfee": 5460
     },
     {
         "name": "Replica Infractem",
         "value": 9.3,
         "valueilvl84": 18600,
-        "valueilvl84q20": 22320
+        "valueilvl84q20": 22320,
+        "goldfee": 5460
     },
     {
         "name": "The Putrid Cloister",
@@ -3179,73 +3221,85 @@
         "name": "The Beast Fur Shawl",
         "value": 9.06,
         "valueilvl84": 18120,
-        "valueilvl84q20": 21744
+        "valueilvl84q20": 21744,
+        "goldfee": 5400
     },
     {
         "name": "Touch of Anguish",
         "value": 9.06,
         "valueilvl84": 18120,
-        "valueilvl84q20": 21744
+        "valueilvl84q20": 21744,
+        "goldfee": 5400
     },
     {
         "name": "Ahn's Contempt",
         "value": 9.06,
         "valueilvl84": 18120,
-        "valueilvl84q20": 21744
+        "valueilvl84q20": 21744,
+        "goldfee": 5400
     },
     {
         "name": "Ahn's Might",
         "value": 9.06,
         "valueilvl84": 18120,
-        "valueilvl84q20": 21744
+        "valueilvl84q20": 21744,
+        "goldfee": 5400
     },
     {
         "name": "Azadi Crest",
         "value": 9.06,
         "valueilvl84": 18120,
-        "valueilvl84q20": 21744
+        "valueilvl84q20": 21744,
+        "goldfee": 5400
     },
     {
         "name": "Scornflux",
         "value": 9.06,
         "valueilvl84": 18120,
-        "valueilvl84q20": 21744
+        "valueilvl84q20": 21744,
+        "goldfee": 5400
     },
     {
         "name": "Gorgon's Gaze",
         "value": 9.03,
         "valueilvl84": 18060,
-        "valueilvl84q20": 21672
+        "valueilvl84q20": 21672,
+        "goldfee": 5380
     },
     {
         "name": "Profane Proxy",
         "value": 9.03,
         "valueilvl84": 18060,
-        "valueilvl84q20": 21672
+        "valueilvl84q20": 21672,
+        "goldfee": 5380
     },
     {
         "name": "Witchhunter's Judgment",
         "value": 9.03,
         "valueilvl84": 18060,
-        "valueilvl84q20": 21672
+        "valueilvl84q20": 21672,
+        "goldfee": 5380
     },
     {
         "name": "Akoya's Gaze",
         "value": 9.03,
         "valueilvl84": 18060,
-        "valueilvl84q20": 21672
+        "valueilvl84q20": 21672,
+        "goldfee": 5380
     },
     {
         "name": "Ynda's Stand",
         "value": 9.03,
         "valueilvl84": 18060,
-        "valueilvl84q20": 21672
+        "valueilvl84q20": 21672,
+        "goldfee": 5380
     },
     {
         "name": "Grasping Nightshade",
         "value": 9.03,
         "valueilvl84": 18060,
-        "valueilvl84q20": 21672
+        "valueilvl84q20": 21672,
+        "goldfee": 5380
     },
     {
         "name": "Death and Taxes",
@@ -3257,67 +3311,78 @@
         "name": "The Ephemeral Bond",
         "value": 8.91,
         "valueilvl84": 17820,
-        "valueilvl84q20": 21384
+        "valueilvl84q20": 21384,
+        "goldfee": 5360
     },
     {
         "name": "The Gilded Chalice",
         "value": 8.91,
         "valueilvl84": 17820,
-        "valueilvl84q20": 21384
+        "valueilvl84q20": 21384,
+        "goldfee": 5360
     },
     {
         "name": "The Broken Censer",
         "value": 8.91,
         "valueilvl84": 17820,
-        "valueilvl84q20": 21384
+        "valueilvl84q20": 21384,
+        "goldfee": 5360
     },
     {
         "name": "Kongor's Undying Rage",
         "value": 8.79,
         "valueilvl84": 17580,
-        "valueilvl84q20": 21096
+        "valueilvl84q20": 21096,
+        "goldfee": 5320
     },
     {
         "name": "Ahn's Heritage",
         "value": 8.79,
         "valueilvl84": 17580,
-        "valueilvl84q20": 21096
+        "valueilvl84q20": 21096,
+        "goldfee": 5320
     },
     {
         "name": "Saqawal's Winds",
         "value": 8.77,
         "valueilvl84": 17540,
-        "valueilvl84q20": 21048
+        "valueilvl84q20": 21048,
+        "goldfee": 5320
     },
     {
         "name": "Legacy of Fury",
         "value": 8.77,
         "valueilvl84": 17540,
-        "valueilvl84q20": 21048
+        "valueilvl84q20": 21048,
+        "goldfee": 5320
     },
     {
         "name": "Devoto's Devotion",
         "value": 8.65,
         "valueilvl84": 17300,
-        "valueilvl84q20": 20760
+        "valueilvl84q20": 20760,
+        "goldfee": 5280
     },
     {
         "name": "Olmec's Sanctum",
         "value": 8.65,
         "valueilvl84": 17300,
-        "valueilvl84q20": 20760
+        "valueilvl84q20": 20760,
+        "goldfee": 5280
     },
     {
         "name": "Bloodgrip",
         "value": 8.65,
         "valueilvl84": 17300,
-        "valueilvl84q20": 20760
+        "valueilvl84q20": 20760,
+        "goldfee": 5280
     },
     {
         "name": "Pillars of Arun",
         "value": 8.65,
         "valueilvl84": 17300,
-        "valueilvl84q20": 20760
+        "valueilvl84q20": 20760,
+        "goldfee": 5280
     },
     {
         "name": "Agnerod East",
@@ -3635,7 +3700,8 @@
         "name": "Jaws of Agony",
         "value": 7.69,
         "valueilvl84": 15380,
-        "valueilvl84q20": 18456
+        "valueilvl84q20": 18456,
+        "goldfee": 5000
     },
     {
         "name": "Pitch Darkness",
@@ -4001,7 +4067,8 @@
         "name": "Hiltless",
         "value": 6.94,
         "valueilvl84": 13880,
-        "valueilvl84q20": 16656
+        "valueilvl84q20": 16656,
+        "goldfee": 4780
     },
     {
         "name": "Dendrobate",
@@ -4319,7 +4386,8 @@
         "name": "Chin Sol",
         "value": 6.07,
         "valueilvl84": 12140,
-        "valueilvl84q20": 14568
+        "valueilvl84q20": 14568,
+        "goldfee": 4500
     },
     {
         "name": "Wings of Entropy",
@@ -4985,7 +5053,8 @@
         "name": "Replica Advancing Fortress",
         "value": 4.73,
         "valueilvl84": 9460,
-        "valueilvl84q20": 11352
+        "valueilvl84q20": 11352,
+        "goldfee": 4020
     },
     {
         "name": "Kahuturoa's Certainty",
@@ -5045,7 +5114,8 @@
         "name": "Infractem",
         "value": 4.65,
         "valueilvl84": 9300,
-        "valueilvl84q20": 11160
+        "valueilvl84q20": 11160,
+        "goldfee": 4000
     },
     {
         "name": "Felltooth",
@@ -5405,7 +5475,8 @@
         "name": "Moonbender's Wing",
         "value": 3.84,
         "valueilvl84": 7680,
-        "valueilvl84q20": 9216
+        "valueilvl84q20": 9216,
+        "goldfee": 3660
     },
     {
         "name": "The Flawed Refuge",
@@ -5429,13 +5500,15 @@
         "name": "Ornament of the East",
         "value": 3.78,
         "valueilvl84": 7560,
-        "valueilvl84q20": 9072
+        "valueilvl84q20": 9072,
+        "goldfee": 3640
     },
     {
         "name": "Advancing Fortress",
         "value": 3.78,
         "valueilvl84": 7560,
-        "valueilvl84q20": 9072
+        "valueilvl84q20": 9072,
+        "goldfee": 3640
     },
     {
         "name": "Valako's Sign",
@@ -5477,7 +5550,8 @@
         "name": "Maligaro's Lens",
         "value": 3.67,
         "valueilvl84": 7340,
-        "valueilvl84q20": 8808
+        "valueilvl84q20": 8808,
+        "goldfee": 3600
     },
     {
         "name": "Mark of Submission",
@@ -5981,7 +6055,8 @@
         "name": "Icetomb",
         "value": 3.07,
         "valueilvl84": 6140,
-        "valueilvl84q20": 7368
+        "valueilvl84q20": 7368,
+        "goldfee": 3320
     },
     {
         "name": "Crystal Vault",
@@ -6089,7 +6164,8 @@
         "name": "Torchoak Step",
         "value": 2.9,
         "valueilvl84": 5800,
-        "valueilvl84q20": 6960
+        "valueilvl84q20": 6960,
+        "goldfee": 3220
     },
     {
         "name": "Chalice of Horrors",
@@ -6269,7 +6345,8 @@
         "name": "Drillneck",
         "value": 2.54,
         "valueilvl84": 5080,
-        "valueilvl84q20": 6096
+        "valueilvl84q20": 6096,
+        "goldfee": 3040
     },
     {
         "name": "Timeclasp",
@@ -6545,13 +6622,15 @@
         "name": "Lakishu's Blade",
         "value": 2.22,
         "valueilvl84": 4440,
-        "valueilvl84q20": 5328
+        "valueilvl84q20": 5328,
+        "goldfee": 2860
     },
     {
         "name": "The Stormheart",
         "value": 2.22,
         "valueilvl84": 4440,
-        "valueilvl84q20": 5328
+        "valueilvl84q20": 5328,
+        "goldfee": 2860
     },
     {
         "name": "Viper's Scales",
@@ -6773,7 +6852,8 @@
         "name": "Mark of the Red Covenant",
         "value": 2.09,
         "valueilvl84": 4180,
-        "valueilvl84q20": 5016
+        "valueilvl84q20": 5016,
+        "goldfee": 2780
     },
     {
         "name": "Atziri's Promise",
@@ -7919,7 +7999,8 @@
         "name": "Shackles of the Wretched",
         "value": 1.49,
         "valueilvl84": 2980,
-        "valueilvl84q20": 3576
+        "valueilvl84q20": 3576,
+        "goldfee": 2400
     },
     {
         "name": "Hyrri's Bite",
@@ -8009,7 +8090,8 @@
         "name": "Shiversting",
         "value": 1.38,
         "valueilvl84": 2760,
-        "valueilvl84q20": 3312
+        "valueilvl84q20": 3312,
+        "goldfee": 2320
     },
     {
         "name": "Honourhome",
@@ -8489,7 +8571,8 @@
         "name": "Blackgleam",
         "value": 1.03,
         "valueilvl84": 2060,
-        "valueilvl84q20": 2472
+        "valueilvl84q20": 2472,
+        "goldfee": 2020
     },
     {
         "name": "Dewath's Hide",
