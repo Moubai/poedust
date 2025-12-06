@@ -272,13 +272,14 @@
                         dust84: localItem.valueilvl84,
                         efficiency84: null,
                         dust84q20: localItem.valueilvl84q20,
-                        efficiency84q20: null
+                        efficiency84q20: null,
+                        goldfee: localItem.goldfee//added moubai
                     };
                 }
                 
                 const chaosValue = ninjaItem.chaosValue;
-                const efficiency84 = chaosValue > 1 ? (localItem.valueilvl84 / chaosValue) : 1;
-                const efficiency84q20 = chaosValue > 1 ? (localItem.valueilvl84q20 / chaosValue) : 1;
+                const efficiency84 = chaosValue > 0 ? (localItem.valueilvl84 / chaosValue) : 0;
+                const efficiency84q20 = chaosValue > 0 ? (localItem.valueilvl84q20 / chaosValue) : 0;
 
                 return {
                     name: localItem.name,
@@ -287,7 +288,8 @@
                     dust84: localItem.valueilvl84,
                     efficiency84: efficiency84,
                     dust84q20: localItem.valueilvl84q20,
-                    efficiency84q20: efficiency84q20
+                    efficiency84q20: efficiency84q20,
+                    goldfee: localItem.goldfee//added moubai
                 };
             });
 
@@ -340,7 +342,7 @@
                     <td data-label="Dust per Chaos" class="p-3 text-right font-bold ${isBest84 ? 'text-yellow-400 text-lg' : ''}">${item.efficiency84 === null ? '-' : item.efficiency84.toLocaleString(undefined, {maximumFractionDigits: 0})}</td>
                     <td data-label="Dust (ilvl 84 q20)" class="p-3 text-right text-cyan-400">${item.dust84q20.toLocaleString()}</td>
                     <td data-label="Dust per Chaos (q20)" class="p-3 text-right font-bold ${isBest84q20 ? 'text-yellow-400 text-lg' : ''}">${item.efficiency84q20 === null ? '-' : item.efficiency84q20.toLocaleString(undefined, {maximumFractionDigits: 0})}</td>
-                    
+                    <td data-label="Gold Fee" class="p-4 text-right text-right">${item.goldfee === undefined ? '-' : item.goldfee.toLocaleString()}</td>
                 `;
                 tableBody.appendChild(row);
             });
