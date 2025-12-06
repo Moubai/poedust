@@ -91,25 +91,25 @@
     },
     {
         "name": "Lioneye's Glare",
-        "value": 683.0,
+        "value": 683,
         "valueilvl84": 1366000,
         "valueilvl84q20": 1639200
     },
     {
         "name": "Divinarius",
-        "value": 683.0,
+        "value": 683,
         "valueilvl84": 1366000,
         "valueilvl84q20": 1639200
     },
     {
         "name": "Essentia Sanguis",
-        "value": 683.0,
+        "value": 683,
         "valueilvl84": 1366000,
         "valueilvl84q20": 1639200
     },
     {
         "name": "Kingmaker",
-        "value": 683.0,
+        "value": 683,
         "valueilvl84": 1366000,
         "valueilvl84q20": 1639200
     },
@@ -127,6 +127,12 @@
     },
     {
         "name": "Atziri's Disfavour",
+        "value": 643.79,
+        "valueilvl84": 1287580,
+        "valueilvl84q20": 1545096
+    },
+    {
+        "name": "Varunastra",
         "value": 643.79,
         "valueilvl84": 1287580,
         "valueilvl84q20": 1545096
@@ -157,7 +163,7 @@
     },
     {
         "name": "Kalandra's Touch",
-        "value": 572.0,
+        "value": 572,
         "valueilvl84": 1144000,
         "valueilvl84q20": 1372800
     },
@@ -216,6 +222,12 @@
         "valueilvl84q20": 677328
     },
     {
+        "name": "Ephemeral Edge",
+        "value": 250.01,
+        "valueilvl84": 500020,
+        "valueilvl84q20": 600024
+    },
+    {
         "name": "Yoke of Suffering",
         "value": 236.36,
         "valueilvl84": 472720,
@@ -229,13 +241,13 @@
     },
     {
         "name": "Manastorm",
-        "value": 210.0,
+        "value": 210,
         "valueilvl84": 420000,
         "valueilvl84q20": 504000
     },
     {
         "name": "Replica Bated Breath",
-        "value": 206.0,
+        "value": 206,
         "valueilvl84": 412000,
         "valueilvl84q20": 494400
     },
@@ -360,16 +372,40 @@
         "valueilvl84q20": 323496
     },
     {
+        "name": "Festering Resentment",
+        "value": 130.43,
+        "valueilvl84": 260860,
+        "valueilvl84q20": 313032
+    },
+    {
         "name": "Cloak of Tawm'r Isley",
         "value": 127.05,
         "valueilvl84": 254100,
         "valueilvl84q20": 304920
     },
     {
+        "name": "Wing of the Wyvern",
+        "value": 122.94,
+        "valueilvl84": 245880,
+        "valueilvl84q20": 295056
+    },
+    {
+        "name": "The Golden Charlatan",
+        "value": 119.36,
+        "valueilvl84": 238720,
+        "valueilvl84q20": 286464
+    },
+    {
         "name": "Hand of Heresy",
         "value": 116.86,
         "valueilvl84": 233720,
         "valueilvl84q20": 280464
+    },
+    {
+        "name": "Eclipse Solaris",
+        "value": 116.27,
+        "valueilvl84": 232540,
+        "valueilvl84q20": 279048
     },
     {
         "name": "Arakaali's Fang",
@@ -462,12 +498,6 @@
         "valueilvl84q20": 157824
     },
     {
-        "name": "Mystic Refractor",
-        "value": 63.66,
-        "valueilvl84": 127320,
-        "valueilvl84q20": 152784
-    },
-    {
         "name": "The Dark Seer",
         "value": 62.5,
         "valueilvl84": 125000,
@@ -493,7 +523,7 @@
     },
     {
         "name": "Bound By Destiny",
-        "value": 60.0,
+        "value": 60,
         "valueilvl84": 120000,
         "valueilvl84q20": 144000
     },
@@ -613,7 +643,7 @@
     },
     {
         "name": "Seven Teachings",
-        "value": 50.0,
+        "value": 50,
         "valueilvl84": 100000,
         "valueilvl84q20": 120000
     },
@@ -696,24 +726,6 @@
         "valueilvl84q20": 107472
     },
     {
-        "name": "The Red Nightmare",
-        "value": 43.84,
-        "valueilvl84": 87680,
-        "valueilvl84q20": 105216
-    },
-    {
-        "name": "The Green Nightmare",
-        "value": 43.84,
-        "valueilvl84": 87680,
-        "valueilvl84q20": 105216
-    },
-    {
-        "name": "The Blue Nightmare",
-        "value": 43.84,
-        "valueilvl84": 87680,
-        "valueilvl84q20": 105216
-    },
-    {
         "name": "Rational Doctrine",
         "value": 43.84,
         "valueilvl84": 87680,
@@ -751,18 +763,6 @@
     },
     {
         "name": "Inpulsa's Broken Heart",
-        "value": 43.48,
-        "valueilvl84": 86960,
-        "valueilvl84q20": 104352
-    },
-    {
-        "name": "Hand of Wisdom and Action",
-        "value": 43.48,
-        "valueilvl84": 86960,
-        "valueilvl84q20": 104352
-    },
-    {
-        "name": "The Red Trail",
         "value": 43.48,
         "valueilvl84": 86960,
         "valueilvl84q20": 104352
@@ -900,25 +900,13 @@
         "valueilvl84q20": 98352
     },
     {
-        "name": "Ephemeral Edge",
-        "value": 39.79,
-        "valueilvl84": 79580,
-        "valueilvl84q20": 95496
+        "name": "Rigwald's Hunt",
+        "value": 40.98,
+        "valueilvl84": 81960,
+        "valueilvl84q20": 98352
     },
     {
         "name": "Hyrri's Ire",
-        "value": 39.79,
-        "valueilvl84": 79580,
-        "valueilvl84q20": 95496
-    },
-    {
-        "name": "The Formless Inferno",
-        "value": 39.79,
-        "valueilvl84": 79580,
-        "valueilvl84q20": 95496
-    },
-    {
-        "name": "The Perfect Form",
         "value": 39.79,
         "valueilvl84": 79580,
         "valueilvl84q20": 95496
@@ -946,18 +934,6 @@
         "value": 39.79,
         "valueilvl84": 79580,
         "valueilvl84q20": 95496
-    },
-    {
-        "name": "Varunastra",
-        "value": 38.63,
-        "valueilvl84": 77260,
-        "valueilvl84q20": 92712
-    },
-    {
-        "name": "Uul-Netol's Embrace",
-        "value": 38.63,
-        "valueilvl84": 77260,
-        "valueilvl84q20": 92712
     },
     {
         "name": "The Surrender",
@@ -1015,18 +991,6 @@
     },
     {
         "name": "Kintsugi",
-        "value": 36.41,
-        "valueilvl84": 72820,
-        "valueilvl84q20": 87384
-    },
-    {
-        "name": "Tulfall",
-        "value": 36.41,
-        "valueilvl84": 72820,
-        "valueilvl84q20": 87384
-    },
-    {
-        "name": "Esh's Visage",
         "value": 36.41,
         "valueilvl84": 72820,
         "valueilvl84q20": 87384
@@ -1116,7 +1080,7 @@
         "valueilvl84q20": 79968
     },
     {
-        "name": "Xoph's Nurture",
+        "name": "Kaom's Primacy",
         "value": 32.35,
         "valueilvl84": 64700,
         "valueilvl84q20": 77640
@@ -1132,6 +1096,12 @@
         "value": 32.35,
         "valueilvl84": 64700,
         "valueilvl84q20": 77640
+    },
+    {
+        "name": "Lost Unity",
+        "value": 31.67,
+        "valueilvl84": 63340,
+        "valueilvl84q20": 76008
     },
     {
         "name": "Farrul's Bite",
@@ -1224,12 +1194,6 @@
         "valueilvl84q20": 65016
     },
     {
-        "name": "Skin of the Lords",
-        "value": 26.52,
-        "valueilvl84": 53040,
-        "valueilvl84q20": 63648
-    },
-    {
         "name": "Zerphi's Heart",
         "value": 26.52,
         "valueilvl84": 53040,
@@ -1255,6 +1219,12 @@
     },
     {
         "name": "Replica Frostbreath",
+        "value": 25.54,
+        "valueilvl84": 51080,
+        "valueilvl84q20": 61296
+    },
+    {
+        "name": "Hand of the Lords",
         "value": 25.54,
         "valueilvl84": 51080,
         "valueilvl84q20": 61296
@@ -1320,6 +1290,24 @@
         "valueilvl84q20": 52872
     },
     {
+        "name": "The Red Nightmare",
+        "value": 21.92,
+        "valueilvl84": 43840,
+        "valueilvl84q20": 52608
+    },
+    {
+        "name": "The Green Nightmare",
+        "value": 21.92,
+        "valueilvl84": 43840,
+        "valueilvl84q20": 52608
+    },
+    {
+        "name": "The Blue Nightmare",
+        "value": 21.92,
+        "valueilvl84": 43840,
+        "valueilvl84q20": 52608
+    },
+    {
         "name": "Perfidy",
         "value": 21.92,
         "valueilvl84": 43840,
@@ -1360,6 +1348,12 @@
         "value": 21.28,
         "valueilvl84": 42560,
         "valueilvl84q20": 51072
+    },
+    {
+        "name": "Mystic Refractor",
+        "value": 21.22,
+        "valueilvl84": 42440,
+        "valueilvl84q20": 50928
     },
     {
         "name": "Hand of the Fervent",
@@ -1422,14 +1416,32 @@
         "valueilvl84q20": 46752
     },
     {
+        "name": "The Unseen Hue",
+        "value": 19.48,
+        "valueilvl84": 38960,
+        "valueilvl84q20": 46752
+    },
+    {
+        "name": "Woespike",
+        "value": 19.48,
+        "valueilvl84": 38960,
+        "valueilvl84q20": 46752
+    },
+    {
+        "name": "Refuge in Isolation",
+        "value": 19.48,
+        "valueilvl84": 38960,
+        "valueilvl84q20": 46752
+    },
+    {
         "name": "Replica Soul Strike",
-        "value": 19.0,
+        "value": 19,
         "valueilvl84": 38000,
         "valueilvl84q20": 45600
     },
     {
         "name": "Replica Midnight Bargain",
-        "value": 19.0,
+        "value": 19,
         "valueilvl84": 38000,
         "valueilvl84q20": 45600
     },
@@ -1501,18 +1513,6 @@
     },
     {
         "name": "The Gull",
-        "value": 17.91,
-        "valueilvl84": 35820,
-        "valueilvl84q20": 42984
-    },
-    {
-        "name": "Severed in Sleep",
-        "value": 17.91,
-        "valueilvl84": 35820,
-        "valueilvl84q20": 42984
-    },
-    {
-        "name": "United in Dream",
         "value": 17.91,
         "valueilvl84": 35820,
         "valueilvl84q20": 42984
@@ -1590,6 +1590,12 @@
         "valueilvl84q20": 41520
     },
     {
+        "name": "Bonemeld",
+        "value": 17.3,
+        "valueilvl84": 34600,
+        "valueilvl84q20": 41520
+    },
+    {
         "name": "Auxium",
         "value": 16.8,
         "valueilvl84": 33600,
@@ -1639,6 +1645,12 @@
     },
     {
         "name": "The Burden of Truth",
+        "value": 16.8,
+        "valueilvl84": 33600,
+        "valueilvl84q20": 40320
+    },
+    {
+        "name": "The Hallowed Monarch",
         "value": 16.8,
         "valueilvl84": 33600,
         "valueilvl84q20": 40320
@@ -1812,18 +1824,6 @@
         "valueilvl84q20": 34776
     },
     {
-        "name": "Hand of Thought and Motion",
-        "value": 14.49,
-        "valueilvl84": 28980,
-        "valueilvl84q20": 34776
-    },
-    {
-        "name": "The Infinite Pursuit",
-        "value": 14.49,
-        "valueilvl84": 28980,
-        "valueilvl84q20": 34776
-    },
-    {
         "name": "The Unshattered Will",
         "value": 14.49,
         "valueilvl84": 28980,
@@ -1992,6 +1992,12 @@
         "valueilvl84q20": 32784
     },
     {
+        "name": "Jiquani's Potential",
+        "value": 13.66,
+        "valueilvl84": 27320,
+        "valueilvl84q20": 32784
+    },
+    {
         "name": "The Goddess Scorned",
         "value": 13.33,
         "valueilvl84": 26660,
@@ -2034,13 +2040,7 @@
         "valueilvl84q20": 31824
     },
     {
-        "name": "The Formless Flame",
-        "value": 13.26,
-        "valueilvl84": 26520,
-        "valueilvl84q20": 31824
-    },
-    {
-        "name": "The Snowblind Grace",
+        "name": "Skin of the Lords",
         "value": 13.26,
         "valueilvl84": 26520,
         "valueilvl84q20": 31824
@@ -2118,12 +2118,6 @@
         "valueilvl84q20": 30912
     },
     {
-        "name": "Uul-Netol's Kiss",
-        "value": 12.88,
-        "valueilvl84": 25760,
-        "valueilvl84q20": 30912
-    },
-    {
         "name": "The Anticipation",
         "value": 12.88,
         "valueilvl84": 25760,
@@ -2131,6 +2125,12 @@
     },
     {
         "name": "Replica Alpha's Howl",
+        "value": 12.88,
+        "valueilvl84": 25760,
+        "valueilvl84q20": 30912
+    },
+    {
+        "name": "Cowards' Wail",
         "value": 12.88,
         "valueilvl84": 25760,
         "valueilvl84q20": 30912
@@ -2232,22 +2232,12 @@
         "valueilvl84q20": 29136
     },
     {
-        "name": "Tulborn",
-        "value": 12.14,
-        "valueilvl84": 24280,
-        "valueilvl84q20": 29136
-    },
-    {
-        "name": "Esh's Mirror",
-        "value": 12.14,
-        "valueilvl84": 24280,
-        "valueilvl84q20": 29136
-    },
-    {
         "name": "Yriel's Fostering",
         "value": 12.14,
         "valueilvl84": 24280,
-        "valueilvl84q20": 29136
+        "valueilvl84q20": 29136,
+        "goldfee": 6160,
+        "TradeLink" : "rP24L8z4uQ"
     },
     {
         "name": "The Rippling Thoughts",
@@ -2305,6 +2295,12 @@
     },
     {
         "name": "Cadigan's Authority",
+        "value": 12.14,
+        "valueilvl84": 24280,
+        "valueilvl84q20": 29136
+    },
+    {
+        "name": "Bitter Instinct",
         "value": 12.14,
         "valueilvl84": 24280,
         "valueilvl84q20": 29136
@@ -2556,12 +2552,6 @@
         "valueilvl84q20": 25968
     },
     {
-        "name": "Xoph's Inception",
-        "value": 10.78,
-        "valueilvl84": 21560,
-        "valueilvl84q20": 25872
-    },
-    {
         "name": "Craiceann's Chitin",
         "value": 10.78,
         "valueilvl84": 21560,
@@ -2647,24 +2637,6 @@
     },
     {
         "name": "Unending Hunger",
-        "value": 10.52,
-        "valueilvl84": 21040,
-        "valueilvl84q20": 25248
-    },
-    {
-        "name": "The Red Dream",
-        "value": 10.52,
-        "valueilvl84": 21040,
-        "valueilvl84q20": 25248
-    },
-    {
-        "name": "The Green Dream",
-        "value": 10.52,
-        "valueilvl84": 21040,
-        "valueilvl84q20": 25248
-    },
-    {
-        "name": "The Blue Dream",
         "value": 10.52,
         "valueilvl84": 21040,
         "valueilvl84q20": 25248
@@ -2797,6 +2769,12 @@
     },
     {
         "name": "Replica Badge of the Brotherhood",
+        "value": 10.52,
+        "valueilvl84": 21040,
+        "valueilvl84q20": 25248
+    },
+    {
+        "name": "Haunting Memories",
         "value": 10.52,
         "valueilvl84": 21040,
         "valueilvl84q20": 25248
@@ -3996,6 +3974,18 @@
         "valueilvl84q20": 16872
     },
     {
+        "name": "The Formless Inferno",
+        "value": 6.96,
+        "valueilvl84": 13920,
+        "valueilvl84q20": 16704
+    },
+    {
+        "name": "The Perfect Form",
+        "value": 6.96,
+        "valueilvl84": 13920,
+        "valueilvl84q20": 16704
+    },
+    {
         "name": "Piscator's Vigil",
         "value": 6.94,
         "valueilvl84": 13880,
@@ -4074,10 +4064,10 @@
         "valueilvl84q20": 16392
     },
     {
-        "name": "Kaom's Primacy",
-        "value": 6.74,
-        "valueilvl84": 13480,
-        "valueilvl84q20": 16176
+        "name": "Uul-Netol's Embrace",
+        "value": 6.76,
+        "valueilvl84": 13520,
+        "valueilvl84q20": 16224
     },
     {
         "name": "Snakebite",
@@ -4188,7 +4178,7 @@
         "valueilvl84q20": 15456
     },
     {
-        "name": "Skin of the Loyal",
+        "name": "Esh's Visage",
         "value": 6.37,
         "valueilvl84": 12740,
         "valueilvl84q20": 15288
@@ -4314,6 +4304,12 @@
         "valueilvl84q20": 14760
     },
     {
+        "name": "The Caged Mammoth",
+        "value": 6.15,
+        "valueilvl84": 12300,
+        "valueilvl84q20": 14760
+    },
+    {
         "name": "Sin Trek",
         "value": 6.07,
         "valueilvl84": 12140,
@@ -4375,25 +4371,25 @@
     },
     {
         "name": "Emperor's Mastery",
-        "value": 6.0,
+        "value": 6,
         "valueilvl84": 12000,
         "valueilvl84q20": 14400
     },
     {
         "name": "The Anima Stone",
-        "value": 6.0,
+        "value": 6,
         "valueilvl84": 12000,
         "valueilvl84q20": 14400
     },
     {
         "name": "Voices",
-        "value": 6.0,
+        "value": 6,
         "valueilvl84": 12000,
         "valueilvl84q20": 14400
     },
     {
         "name": "Sublime Vision",
-        "value": 6.0,
+        "value": 6,
         "valueilvl84": 12000,
         "valueilvl84q20": 14400
     },
@@ -4854,6 +4850,12 @@
         "valueilvl84q20": 12360
     },
     {
+        "name": "The Grey Wind",
+        "value": 5.15,
+        "valueilvl84": 10300,
+        "valueilvl84q20": 12360
+    },
+    {
         "name": "Prospero's Vault",
         "value": 5.08,
         "valueilvl84": 10160,
@@ -4885,31 +4887,31 @@
     },
     {
         "name": "Death's Harp",
-        "value": 5.0,
+        "value": 5,
         "valueilvl84": 10000,
         "valueilvl84q20": 12000
     },
     {
         "name": "Bitterdream",
-        "value": 5.0,
+        "value": 5,
         "valueilvl84": 10000,
         "valueilvl84q20": 12000
     },
     {
         "name": "Replica Iron Commander",
-        "value": 5.0,
+        "value": 5,
         "valueilvl84": 10000,
         "valueilvl84q20": 12000
     },
     {
         "name": "The Hand of Phrecia",
-        "value": 5.0,
+        "value": 5,
         "valueilvl84": 10000,
         "valueilvl84q20": 12000
     },
     {
         "name": "Wildfire Phloem",
-        "value": 5.0,
+        "value": 5,
         "valueilvl84": 10000,
         "valueilvl84q20": 12000
     },
@@ -5029,6 +5031,12 @@
     },
     {
         "name": "Relic of the Pact",
+        "value": 4.71,
+        "valueilvl84": 9420,
+        "valueilvl84q20": 11304
+    },
+    {
+        "name": "Wellwater Phylactery",
         "value": 4.71,
         "valueilvl84": 9420,
         "valueilvl84q20": 11304
@@ -5317,6 +5325,36 @@
     },
     {
         "name": "Ceinture of Benevolence",
+        "value": 3.96,
+        "valueilvl84": 7920,
+        "valueilvl84q20": 9504
+    },
+    {
+        "name": "The Will of Tul",
+        "value": 3.96,
+        "valueilvl84": 7920,
+        "valueilvl84q20": 9504
+    },
+    {
+        "name": "The Will of Xoph",
+        "value": 3.96,
+        "valueilvl84": 7920,
+        "valueilvl84q20": 9504
+    },
+    {
+        "name": "The Will of Esh",
+        "value": 3.96,
+        "valueilvl84": 7920,
+        "valueilvl84q20": 9504
+    },
+    {
+        "name": "The Will of Uul-Netol",
+        "value": 3.96,
+        "valueilvl84": 7920,
+        "valueilvl84q20": 9504
+    },
+    {
+        "name": "The Sundered Will",
         "value": 3.96,
         "valueilvl84": 7920,
         "valueilvl84q20": 9504
@@ -5886,12 +5924,6 @@
         "valueilvl84q20": 7608
     },
     {
-        "name": "Eclipse Solaris",
-        "value": 3.17,
-        "valueilvl84": 6340,
-        "valueilvl84q20": 7608
-    },
-    {
         "name": "Chaber Cairn",
         "value": 3.17,
         "valueilvl84": 6340,
@@ -5910,7 +5942,19 @@
         "valueilvl84q20": 7512
     },
     {
+        "name": "United in Dream",
+        "value": 3.13,
+        "valueilvl84": 6260,
+        "valueilvl84q20": 7512
+    },
+    {
         "name": "Replica Bitterdream",
+        "value": 3.13,
+        "valueilvl84": 6260,
+        "valueilvl84q20": 7512
+    },
+    {
+        "name": "The Monastery Bell",
         "value": 3.13,
         "valueilvl84": 6260,
         "valueilvl84q20": 7512
@@ -6013,6 +6057,12 @@
     },
     {
         "name": "Replica Twyzel",
+        "value": 2.95,
+        "valueilvl84": 5900,
+        "valueilvl84q20": 7080
+    },
+    {
+        "name": "Unlight Extant",
         "value": 2.95,
         "valueilvl84": 5900,
         "valueilvl84q20": 7080
@@ -6324,6 +6374,18 @@
         "valueilvl84q20": 5904
     },
     {
+        "name": "The Formless Flame",
+        "value": 2.44,
+        "valueilvl84": 4880,
+        "valueilvl84q20": 5856
+    },
+    {
+        "name": "The Snowblind Grace",
+        "value": 2.44,
+        "valueilvl84": 4880,
+        "valueilvl84q20": 5856
+    },
+    {
         "name": "Ikiaho's Promise",
         "value": 2.43,
         "valueilvl84": 4860,
@@ -6352,6 +6414,12 @@
         "value": 2.39,
         "valueilvl84": 4780,
         "valueilvl84q20": 5736
+    },
+    {
+        "name": "Uul-Netol's Kiss",
+        "value": 2.37,
+        "valueilvl84": 4740,
+        "valueilvl84q20": 5688
     },
     {
         "name": "Mightflay",
@@ -6448,6 +6516,12 @@
         "value": 2.25,
         "valueilvl84": 4500,
         "valueilvl84q20": 5400
+    },
+    {
+        "name": "Esh's Mirror",
+        "value": 2.24,
+        "valueilvl84": 4480,
+        "valueilvl84q20": 5376
     },
     {
         "name": "Wake of Destruction",
@@ -6726,6 +6800,18 @@
         "valueilvl84q20": 4944
     },
     {
+        "name": "Hand of Thought and Motion",
+        "value": 2.04,
+        "valueilvl84": 4080,
+        "valueilvl84q20": 4896
+    },
+    {
+        "name": "The Infinite Pursuit",
+        "value": 2.04,
+        "valueilvl84": 4080,
+        "valueilvl84q20": 4896
+    },
+    {
         "name": "Carnage Heart",
         "value": 2.03,
         "valueilvl84": 4060,
@@ -6799,61 +6885,61 @@
     },
     {
         "name": "Watcher's Eye",
-        "value": 2.0,
+        "value": 2,
         "valueilvl84": 4000,
         "valueilvl84q20": 4800
     },
     {
         "name": "Kitava's Teachings",
-        "value": 2.0,
+        "value": 2,
         "valueilvl84": 4000,
         "valueilvl84q20": 4800
     },
     {
         "name": "Calamitous Visions",
-        "value": 2.0,
+        "value": 2,
         "valueilvl84": 4000,
         "valueilvl84q20": 4800
     },
     {
         "name": "Natural Affinity",
-        "value": 2.0,
+        "value": 2,
         "valueilvl84": 4000,
         "valueilvl84q20": 4800
     },
     {
         "name": "The Interrogation",
-        "value": 2.0,
+        "value": 2,
         "valueilvl84": 4000,
         "valueilvl84q20": 4800
     },
     {
         "name": "The Siege",
-        "value": 2.0,
+        "value": 2,
         "valueilvl84": 4000,
         "valueilvl84q20": 4800
     },
     {
         "name": "The Front Line",
-        "value": 2.0,
+        "value": 2,
         "valueilvl84": 4000,
         "valueilvl84q20": 4800
     },
     {
         "name": "One With Nothing",
-        "value": 2.0,
+        "value": 2,
         "valueilvl84": 4000,
         "valueilvl84q20": 4800
     },
     {
         "name": "Megalomaniac",
-        "value": 2.0,
+        "value": 2,
         "valueilvl84": 4000,
         "valueilvl84q20": 4800
     },
     {
         "name": "Widowhail",
-        "value": 2.0,
+        "value": 2,
         "valueilvl84": 4000,
         "valueilvl84q20": 4800
     },
@@ -6976,6 +7062,24 @@
         "value": 1.86,
         "valueilvl84": 3720,
         "valueilvl84q20": 4464
+    },
+    {
+        "name": "The Red Dream",
+        "value": 1.84,
+        "valueilvl84": 3680,
+        "valueilvl84q20": 4416
+    },
+    {
+        "name": "The Green Dream",
+        "value": 1.84,
+        "valueilvl84": 3680,
+        "valueilvl84q20": 4416
+    },
+    {
+        "name": "The Blue Dream",
+        "value": 1.84,
+        "valueilvl84": 3680,
+        "valueilvl84q20": 4416
     },
     {
         "name": "Boreal Shepherd",
@@ -7608,6 +7712,12 @@
         "valueilvl84q20": 4152
     },
     {
+        "name": "Tulborn",
+        "value": 1.71,
+        "valueilvl84": 3420,
+        "valueilvl84q20": 4104
+    },
+    {
         "name": "Ghostwrithe",
         "value": 1.68,
         "valueilvl84": 3360,
@@ -7782,6 +7892,12 @@
         "valueilvl84q20": 3624
     },
     {
+        "name": "Xoph's Inception",
+        "value": 1.51,
+        "valueilvl84": 3020,
+        "valueilvl84q20": 3624
+    },
+    {
         "name": "The Effigon",
         "value": 1.51,
         "valueilvl84": 3020,
@@ -7876,6 +7992,18 @@
         "value": 1.41,
         "valueilvl84": 2820,
         "valueilvl84q20": 3384
+    },
+    {
+        "name": "Hand of Wisdom and Action",
+        "value": 1.4,
+        "valueilvl84": 2800,
+        "valueilvl84q20": 3360
+    },
+    {
+        "name": "The Red Trail",
+        "value": 1.4,
+        "valueilvl84": 2800,
+        "valueilvl84q20": 3360
     },
     {
         "name": "Shiversting",
@@ -8166,6 +8294,12 @@
         "valueilvl84q20": 2856
     },
     {
+        "name": "Tulfall",
+        "value": 1.17,
+        "valueilvl84": 2340,
+        "valueilvl84q20": 2808
+    },
+    {
         "name": "The Screaming Eagle",
         "value": 1.16,
         "valueilvl84": 2320,
@@ -8212,6 +8346,12 @@
         "value": 1.13,
         "valueilvl84": 2260,
         "valueilvl84q20": 2712
+    },
+    {
+        "name": "Skin of the Loyal",
+        "value": 1.11,
+        "valueilvl84": 2220,
+        "valueilvl84q20": 2664
     },
     {
         "name": "Wurmfist",
@@ -8334,6 +8474,12 @@
         "valueilvl84q20": 2544
     },
     {
+        "name": "Xoph's Nurture",
+        "value": 1.04,
+        "valueilvl84": 2080,
+        "valueilvl84q20": 2496
+    },
+    {
         "name": "Blackheart",
         "value": 1.03,
         "valueilvl84": 2060,
@@ -8383,326 +8529,332 @@
     },
     {
         "name": "Redbeak",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Silverbranch",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Ezomyte Peak",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Lochtonial Caress",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Fragment of Eternity",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Splinter of the Moon",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Ashes of the Sun",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Relic of the Cycle",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Tear of Entropy",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Lifesprig",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Celestial Fragment",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Bartek's Finger",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Blood of Summer",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Talisman of the Victor",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Slivers of Providence",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "First Piece of the Arcane",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Second Piece of the Arcane",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Third Piece of the Arcane",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "First Piece of Time",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Second Piece of Time",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Terror",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Stalwart Defenders",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Misinformation",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Irresistible Temptation",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Territories Unknown",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "War Among the Stars",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Booming Populace",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "The Warlord's Annex",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Demigod's Authority",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "The Walls",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "The Claim",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "The Closest Peak",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Atop the Atlas",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "The Vast Horizon",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "The Builder",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Restless Cycles",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "The False Hope",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Wall of Brambles",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Ezomyte Hold",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Silverbough",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Dreadbeak",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Beauty",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Curiosity",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Ambition",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Cooperation",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "The Hour of Divinity",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "The Night Lamp",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "The Blood of Innocence",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "The Perandus Pact",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Curio of Absorption",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Curio of Consumption",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Curio of Potential",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "Curio of Decay",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
     },
     {
         "name": "The Light of Meaning",
-        "value": 1.0,
+        "value": 1,
         "valueilvl84": 2000,
         "valueilvl84q20": 2400
+    },
+    {
+        "name": "Severed in Sleep",
+        "value": 0.58,
+        "valueilvl84": 1160,
+        "valueilvl84q20": 1392
     }
 ]
