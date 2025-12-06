@@ -126,6 +126,7 @@
                                 <th id="sort-efficiency84" class="p-4 text-right">Dust per Chaos</th>
                                 <th id="sort-dust84q20" class="p-4 text-right">Dust (ilvl 84 q20)</th>
                                 <th id="sort-efficiency84q20" class="p-4 text-right">Dust per Chaos (q20)</th>
+                               <th id="sort-goldfee" class="p-4 text-right">gold fee</th>
                             </tr>
                         </thead>
                         <tbody id="item-table-body">
@@ -189,7 +190,7 @@
 
         async function fetchLeagues() {
             tableBody.innerHTML = `<tr><td colspan="6" class="text-center p-8"><span>Loading league information...</span></td></tr>`;
-            const desiredLeagues = ['Keepers', 'Hardcore Keepers', 'Standard', 'Hardcore'];
+            const desiredLeagues = ['Keepers', 'Hardcore Mercenaries', 'Standard', 'Hardcore'];
             const leagueApiUrl = 'https://api.pathofexile.com/leagues?compact=1';
             const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(leagueApiUrl)}`;
             try {
@@ -276,8 +277,8 @@
                 }
                 
                 const chaosValue = ninjaItem.chaosValue;
-                const efficiency84 = chaosValue > 0 ? (localItem.valueilvl84 / chaosValue) : 0;
-                const efficiency84q20 = chaosValue > 0 ? (localItem.valueilvl84q20 / chaosValue) : 0;
+                const efficiency84 = chaosValue > 1 ? (localItem.valueilvl84 / chaosValue) : 1;
+                const efficiency84q20 = chaosValue > 1 ? (localItem.valueilvl84q20 / chaosValue) : 1;
 
                 return {
                     name: localItem.name,
@@ -339,6 +340,7 @@
                     <td data-label="Dust per Chaos" class="p-3 text-right font-bold ${isBest84 ? 'text-yellow-400 text-lg' : ''}">${item.efficiency84 === null ? '-' : item.efficiency84.toLocaleString(undefined, {maximumFractionDigits: 0})}</td>
                     <td data-label="Dust (ilvl 84 q20)" class="p-3 text-right text-cyan-400">${item.dust84q20.toLocaleString()}</td>
                     <td data-label="Dust per Chaos (q20)" class="p-3 text-right font-bold ${isBest84q20 ? 'text-yellow-400 text-lg' : ''}">${item.efficiency84q20 === null ? '-' : item.efficiency84q20.toLocaleString(undefined, {maximumFractionDigits: 0})}</td>
+                    
                 `;
                 tableBody.appendChild(row);
             });
