@@ -105,45 +105,59 @@
         <main>
             <div class="bg-gray-800 shadow-2xl rounded-lg overflow-hidden">
                 <div class="p-4 sm:p-6 flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-gray-700 space-y-4 sm:space-y-0">
-                    <div>
-                        <h2 class="text-xl font-semibold">Efficiency Dashboard</h2>
-                        <p id="last-updated" class="text-sm text-gray-500">Updating data...</p>
-                    </div>
                     <div class="flex items-center space-x-4">
-                         <label for="league-select" class="text-sm font-medium">League:</label>
-                         <select id="league-select" class="bg-gray-700 border border-gray-600 rounded-md px-3 py-1.5 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500">
-                         </select>
-                    </div>
-                </div>
+                     <label for="minDust" class="text-sm font-medium">Min Dust:</label>
+                    <input type="number" id="minDust" placeholder="e.g., 10000" class="bg-gray-700 border border-gray-600 rounded-md px-3 py-1.5 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500">
 
-                <div class="overflow-x-auto">
-                    <table class="w-full text-left responsive-table">
-                        <thead class="bg-gray-700 text-xs text-gray-300 uppercase tracking-wider">
-                            <tr>
-                                <th id="sort-name" class="p-4">Item Name</th>
-                                <th id="sort-chaos" class="p-4 text-right">Chaos Value</th>
-                                <th id="sort-dust84" class="p-4 text-right">Dust (ilvl 84)</th>
-                                <th id="sort-efficiency84" class="p-4 text-right">Dust per Chaos</th>
-                                <th id="sort-dust84q20" class="p-4 text-right">Dust (ilvl 84 q20)</th>
-                                <th id="sort-efficiency84q20" class="p-4 text-right">Dust per Chaos (q20)</th>
-                               <th id="sort-goldfee" class="p-4 text-right">gold fee</th>
-                            </tr>
-                        </thead>
-                        <tbody id="item-table-body">
-                            <tr>
-                                <td colspan="6" class="text-center p-8">
-                                    <div class="flex justify-center items-center">
-                                        <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                                          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                                        </svg>
-                                        <span>Loading local item data...</span>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <label for="maxDust" class="text-sm font-medium">Max Dust:</label>
+                    <input type="number" id="maxDust" placeholder="e.g., 999999" class="bg-gray-700 border border-gray-600 rounded-md px-3 py-1.5 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500">
+
+                     <button onclick="filterByDust()" class="bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1.5 px-4 rounded-md">
+                        Filter
+                    </button>
+                    <button onclick="renderTable()" class="bg-gray-500 hover:bg-gray-600 text-white font-medium py-1.5 px-4 rounded-md">
+                        Reset
+                    </button>
+
                 </div>
+                <div>
+                    <h2 class="text-xl font-semibold">Efficiency Dashboard</h2>
+                    <p id="last-updated" class="text-sm text-gray-500">Updating data...</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <label for="league-select" class="text-sm font-medium">League:</label>
+                    <select id="league-select" class="bg-gray-700 border border-gray-600 rounded-md px-3 py-1.5 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                    </select>
+                </div>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left responsive-table">
+                    <thead class="bg-gray-700 text-xs text-gray-300 uppercase tracking-wider">
+                        <tr>
+                            <th id="sort-name" class="p-4">Item Name</th>
+                            <th id="sort-chaos" class="p-4 text-right">Chaos Value</th>
+                            <th id="sort-dust84" class="p-4 text-right">Dust (ilvl 84)</th>
+                            <th id="sort-efficiency84" class="p-4 text-right">Dust per Chaos</th>
+                            <th id="sort-dust84q20" class="p-4 text-right">Dust (ilvl 84 q20)</th>
+                            <th id="sort-efficiency84q20" class="p-4 text-right">Dust per Chaos (q20)</th>
+                            <th id="sort-goldfee" class="p-4 text-right">gold fee</th>
+                        </tr>
+                    </thead>
+                    <tbody id="item-table-body">
+                        <tr>
+                            <td colspan="6" class="text-center p-8">
+                                <div class="flex justify-center items-center">
+                                    <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                    </svg>
+                                    <span>Loading local item data...</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </main>
 
@@ -173,6 +187,17 @@
         let allItemData = [];
 
         // --- FUNCTIONS ---
+        //add filterbydust sometimes we need more than 100k dust directly
+        function filterByDust() {
+            const minDust = parseInt(document.getElementById('minDust').value) || 0;
+            const maxDust = parseInt(document.getElementById('maxDust').value) || Infinity;
+
+            const filteredItems = allItemData.filter(item => {
+                return item.dust84 >= minDust && item.dust84 <= maxDust;
+            });
+            renderTable(filteredItems);
+        }   
+        
         async function fetchStaticData() {
             try {
                 const response = await fetch('./item_data.json');
@@ -273,13 +298,13 @@
                         efficiency84: null,
                         dust84q20: localItem.valueilvl84q20,
                         efficiency84q20: null,
-                        goldfee: localItem.goldfee //added moubai
+                        goldfee: localItem.goldfee //added goldfee
                     };
                 }
                 
                 const chaosValue = ninjaItem.chaosValue;
-                const efficiency84 = chaosValue > 1 ? (localItem.valueilvl84 / chaosValue) : 1;
-                const efficiency84q20 = chaosValue > 1 ? (localItem.valueilvl84q20 / chaosValue) : 1;
+                const efficiency84 = chaosValue > 1 ? (localItem.valueilvl84 / chaosValue) : 1; //change to 1 chaos, too much problem with poe.ninja pricing
+                const efficiency84q20 = chaosValue > 1 ? (localItem.valueilvl84q20 / chaosValue) : 1; //same
 
                 return {
                     name: localItem.name,
@@ -289,25 +314,25 @@
                     efficiency84: efficiency84,
                     dust84q20: localItem.valueilvl84q20,
                     efficiency84q20: efficiency84q20,
-                    goldfee: localItem.goldfee //added moubai
+                    goldfee: localItem.goldfee //added goldfee
                 };
             });
 
             renderTable();
         }
 
-        function renderTable() {
-            allItemData.sort((a, b) => {
+        function renderTable(items = allItemData) {
+            items.sort((a, b) => {
                 const valA = a[currentSort.key];
                 const valB = b[currentSort.key];
-                
+
                 const aIsNull = valA === null;
                 const bIsNull = valB === null;
 
                 if (aIsNull && bIsNull) return 0;
                 if (aIsNull) return 1;
                 if (bIsNull) return -1;
-                
+
                 if (currentSort.order === 'asc') {
                     return valA > valB ? 1 : -1;
                 } else {
@@ -317,14 +342,14 @@
 
             tableBody.innerHTML = '';
 
-            if (allItemData.length === 0) {
-                tableBody.innerHTML = `<tr><td colspan="6" class="text-center p-8">No item data found.</td></tr>`;
+            if (items.length === 0) {
+                tableBody.innerHTML = `<tr><td colspan="6" class="text-center p-8">No items match your filter.</td></tr>`;
                 return;
             }
-            
-            const bestEfficiency = allItemData.length > 0 && allItemData[0][currentSort.key] !== null ? allItemData[0][currentSort.key] : 0;
 
-            allItemData.forEach((item, index) => {
+            const bestEfficiency = items.length > 0 && items[0][currentSort.key] !== null ? items[0][currentSort.key] : 0;
+
+            items.forEach((item, index) => {
                 const row = document.createElement('tr');
                 row.className = 'border-b border-gray-700 hover:bg-gray-700/50 fade-in-row';
                 row.style.animationDelay = `${index * 0.05}s`;
@@ -346,6 +371,7 @@
                 tableBody.appendChild(row);
             });
         }
+
         
         function setSort(key) {
             if (currentSort.key === key) {
