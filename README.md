@@ -6,6 +6,8 @@ Initially posted on Reddit, then removed as it was not taken as a "good tool". H
 
 **Live Site:** [https://www.poedust.com](https://www.poedust.com)
 
+![screenshot exemple](exemple.png)
+
 ---
 
 ## Features
@@ -69,6 +71,7 @@ A significant portion of this project was developed in collaboration with a larg
 
 This project serves as a practical example of how AI can be leveraged as a powerful co-developer tool to accelerate development and build functional applications, even with limited prior programming experience.
 
+note AI assistant for small mods by Moubai : Le Chat by Mitral.ai with free account.
 ---
 
 ## Acknowledgements
