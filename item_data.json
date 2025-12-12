@@ -574,19 +574,22 @@
         "name": "Void Battery",
         "value": 56.73,
         "valueilvl84": 113460,
-        "valueilvl84q20": 136152
+        "valueilvl84q20": 136152,
+        "goldfee": 12300
     },
     {
         "name": "Rigwald's Quills",
         "value": 56.73,
         "valueilvl84": 113460,
-        "valueilvl84q20": 136152
+        "valueilvl84q20": 136152,
+        "goldfee": 12300
     },
     {
         "name": "The Brass Dome",
         "value": 56.73,
         "valueilvl84": 113460,
-        "valueilvl84q20": 136152
+        "valueilvl84q20": 136152,
+        "goldfee": 12300
     },
     {
         "name": "Light of Lunaris",
@@ -754,103 +757,121 @@
         "name": "Kaom's Heart",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Rathpith Globe",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Prism Guardian",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
+        
     },
     {
         "name": "Broken Faith",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Cospri's Malice",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Inpulsa's Broken Heart",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Doryani's Delusion",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "The Queen's Hunger",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Maloney's Mechanism",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Brutal Restraint",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Badge of the Brotherhood",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "The Immortal Will",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Replica Kaom's Heart",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Replica Red Trail",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Viridi's Veil",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Doppelgänger Guise",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Grace of the Goddess",
         "value": 43.48,
         "valueilvl84": 86960,
-        "valueilvl84q20": 104352
+        "valueilvl84q20": 104352,
+        "goldfee": 16380
     },
     {
         "name": "Thunderfist",
@@ -1508,61 +1529,71 @@
         "name": "Brain Rattler",
         "value": 18.91,
         "valueilvl84": 37820,
-        "valueilvl84q20": 45384
+        "valueilvl84q20": 45384,
+        "goldfee": 7500
     },
     {
         "name": "Razor of the Seventh Sun",
         "value": 18.91,
         "valueilvl84": 37820,
-        "valueilvl84q20": 45384
+        "valueilvl84q20": 45384,
+        "goldfee": 7500
     },
     {
         "name": "Snakepit",
         "value": 18.91,
         "valueilvl84": 37820,
-        "valueilvl84q20": 45384
+        "valueilvl84q20": 45384,
+        "goldfee": 7500
     },
     {
         "name": "The Scourge",
         "value": 18.91,
         "valueilvl84": 37820,
-        "valueilvl84q20": 45384
+        "valueilvl84q20": 45384,
+        "goldfee": 7500
     },
     {
         "name": "Memory Vault",
         "value": 18.91,
         "valueilvl84": 37820,
-        "valueilvl84q20": 45384
+        "valueilvl84q20": 45384,
+        "goldfee": 7500
     },
     {
         "name": "Grelwood Shank",
         "value": 18.91,
         "valueilvl84": 37820,
-        "valueilvl84q20": 45384
+        "valueilvl84q20": 45384,
+        "goldfee": 7500
     },
     {
         "name": "Beltimber Blade",
         "value": 18.91,
         "valueilvl84": 37820,
-        "valueilvl84q20": 45384
+        "valueilvl84q20": 45384,
+        "goldfee": 7500
     },
     {
         "name": "Vulconus",
         "value": 18.91,
         "valueilvl84": 37820,
-        "valueilvl84q20": 45384
+        "valueilvl84q20": 45384,
+        "goldfee": 7500
     },
     {
         "name": "Augyre",
         "value": 18.91,
         "valueilvl84": 37820,
-        "valueilvl84q20": 45384
+        "valueilvl84q20": 45384,
+        "goldfee": 7500
     },
     {
         "name": "Gloomfang",
         "value": 18.91,
         "valueilvl84": 37820,
-        "valueilvl84q20": 45384
+        "valueilvl84q20": 45384,
+        "goldfee": 7500
     },
     {
         "name": "The Twilight Temple",
