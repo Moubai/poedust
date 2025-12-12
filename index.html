@@ -273,13 +273,13 @@
                         efficiency84: null,
                         dust84q20: localItem.valueilvl84q20,
                         efficiency84q20: null,
-                        goldfee: localItem.goldfee//added moubai
+                        goldfee: localItem.goldfee //added moubai
                     };
                 }
                 
                 const chaosValue = ninjaItem.chaosValue;
-                const efficiency84 = chaosValue > 0 ? (localItem.valueilvl84 / chaosValue) : 0;
-                const efficiency84q20 = chaosValue > 0 ? (localItem.valueilvl84q20 / chaosValue) : 0;
+                const efficiency84 = chaosValue > 1 ? (localItem.valueilvl84 / chaosValue) : 1;
+                const efficiency84q20 = chaosValue > 1 ? (localItem.valueilvl84q20 / chaosValue) : 1;
 
                 return {
                     name: localItem.name,
@@ -289,7 +289,7 @@
                     efficiency84: efficiency84,
                     dust84q20: localItem.valueilvl84q20,
                     efficiency84q20: efficiency84q20,
-                    goldfee: localItem.goldfee//added moubai
+                    goldfee: localItem.goldfee //added moubai
                 };
             });
 
@@ -331,11 +331,10 @@
 
                 const isBest84 = item.efficiency84 > 0 && item.efficiency84 === bestEfficiency && currentSort.key === 'efficiency84';
                 const isBest84q20 = item.efficiency84q20 > 0 && item.efficiency84q20 === bestEfficiency && currentSort.key === 'efficiency84q20';
-
                 row.innerHTML = `
                     <td data-label="Item Name" class="p-3 font-medium flex items-center">
                         <img src="${item.icon || ''}" alt="" class="h-10 w-10 mr-3 object-contain" onerror="this.style.visibility='hidden'">
-                        <span>${item.name}</span>
+                        <span><a href="https://www.pathofexile.com/trade/search/Keepers?q=%7B%22query%22%3A%7B%22filters%22%3A%7B%22type_filters%22%3A%7B%22filters%22%3A%7B%7D%7D%2C%22misc_filters%22%3A%7B%22filters%22%3A%7B%22foulborn_item%22%3A%7B%22option%22%3A%22false%22%7D%7D%7D%7D%2C%22status%22%3A%7B%22option%22%3A%22available%22%7D%2C%22name%22%3A%22${item.name}%22%7D%7D">${item.name}</a></span>
                     </td>
                     <td data-label="Chaos Value" class="p-3 text-right text-green-400 font-semibold">${item.chaosValue === null ? '-' : item.chaosValue.toLocaleString(undefined, {maximumFractionDigits: 0})}</td>
                     <td data-label="Dust (ilvl 84)" class="p-3 text-right text-cyan-400">${item.dust84.toLocaleString()}</td>
